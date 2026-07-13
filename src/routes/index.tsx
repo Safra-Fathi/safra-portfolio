@@ -283,13 +283,15 @@ function Portfolio() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const scrollPct = typeof document !== "undefined"
-    ? Math.min(
-        100,
-        (scrollY /
-          Math.max(1, document.documentElement.scrollHeight - window.innerHeight)) * 100,
-      )
-    : 0;
+  const scrollPct =
+    typeof window !== "undefined" && typeof document !== "undefined"
+      ? Math.min(
+          100,
+          (scrollY /
+            Math.max(1, document.documentElement.scrollHeight - window.innerHeight)) *
+            100,
+        )
+      : 0;
 
   return (
     <div className="relative min-h-screen overflow-hidden text-foreground">
