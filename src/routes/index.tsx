@@ -6,12 +6,9 @@ import {
   Award,
   Brain,
   Briefcase,
-  Cloud,
   Code2,
   Cpu,
-  Database,
   Download,
-  Eye,
   ExternalLink,
   Github,
   GraduationCap,
@@ -25,7 +22,6 @@ import {
   Send,
   Server,
   Sparkles,
-  Terminal,
   X,
 } from "lucide-react";
 import heroNeural from "@/assets/hero-neural.jpg";
