@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
         content:
           "AI/ML Engineer portfolio of Shabra Fathima — Computer Vision, Deep Learning, Generative AI projects, skills and internship availability.",
       },
-      { property: "og:title", content: "Shabra Fathima — AI / ML Engineer" },
+      { property: "og:title", content: "Shabra Fathima — AI / ML Engineer Portfolio" },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],

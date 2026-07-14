@@ -81,19 +81,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Portfolio of Shabra Fathima, aspiring AI & Machine Learning Engineer specializing in Computer Vision, Deep Learning and Intelligent Systems.",
+          "AI/ML Engineer portfolio of Shabra Fathima — Computer Vision, Deep Learning, Generative AI projects, skills and internship availability.",
       },
       { name: "author", content: "Shabra Fathima" },
-      { property: "og:title", content: "Shabra Fathima — AI / ML Engineer" },
+      { property: "og:title", content: "Shabra Fathima — AI / ML Engineer Portfolio" },
       {
         property: "og:description",
         content:
-          "Aspiring AI/ML Engineer building intelligent systems in Computer Vision, NLP and Generative AI.",
+          "AI/ML Engineer portfolio of Shabra Fathima — Computer Vision, Deep Learning, Generative AI projects, skills and internship availability.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Shabra Fathima" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Shabra Fathima — AI / ML Engineer" },
+      { name: "twitter:title", content: "Shabra Fathima — AI / ML Engineer Portfolio" },
+      { name: "twitter:description", content: "AI/ML Engineer portfolio of Shabra Fathima — Computer Vision, Deep Learning, Generative AI projects, skills and internship availability." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0ef2f940-de41-4f28-aa50-2bc10cdd2c13/id-preview-280026ec--b6a6eb94-603b-496b-962c-4e7966881d4a.lovable.app-1783963099054.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0ef2f940-de41-4f28-aa50-2bc10cdd2c13/id-preview-280026ec--b6a6eb94-603b-496b-962c-4e7966881d4a.lovable.app-1783963099054.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
